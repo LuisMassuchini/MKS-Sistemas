@@ -13,12 +13,13 @@ const Home: NextPage = () => {
   return (
     <Flex direction="column" w="100%">
       <Header />
+
       {productsFound !== undefined ? (
         <Flex className="home" >
           <Flex justifyContent="center" h="95%">
             <Grid templateColumns="repeat(4, 1fr)" width="70%" h="100%">
               {productsFound.map((index, key) => (
-                <GridItem key={key} mt="24px">
+                <GridItem key={key} mt="24px"  minW= "260px">
                   <ProductCard prop={index} />
                 </GridItem>
               ))}
