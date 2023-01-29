@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <ChakraProvider theme={theme}>
       <Provider store={store}>
       {/* <PersistGate loading={<> </>} persistor={persistor}> */}
-        <Flex>
+        <Flex minW="100vw" className="scroll-custom">
           <Component {...pageProps} />
         </Flex>
         {/* </PersistGate> */}
