@@ -1,0 +1,53 @@
+botao card = ok
+botao drawer = ok
+botao carrinho = ok
+
+
+
+passar os estilos pro css
+
+ {/* <Button
+      onClick = {() => dispatch(addPurchase(product))}
+        alignItems="center"
+        gap="8px"
+        w="100%"
+        bgColor="primary.blue"
+        color="white"
+        borderRadius="0 0 8px 8px"
+      > */}
+      {/* </Button> */}
+
+
+      import { Flex, Text } from "@chakra-ui/react"
+import { useSelector } from "react-redux";
+import { IProducts } from "../../api/interface/product"
+import { showPurchase } from "../../store/productStore";
+import { CartDrawer } from "../CartDrawer"
+
+export const CartButton = () => {
+    const list: IProducts[] = useSelector(showPurchase).value.data;
+    return (
+        <Flex className="cartButton">
+            <CartDrawer />
+            <Text >{list.length}</Text>
+        </Flex>
+    )
+}
+
+.cartButton {
+  width: 90px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: black;
+  align-items: center;
+  padding-inline: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  gap: 12px;
+  line-height: 21.94px;
+  font-family:  Montserrat-Bold;
+  cursor: pointer;
+  
+  
+}
