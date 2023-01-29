@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <Flex direction="column" w="100%">
       <Header />
       {productsFound !== undefined ? (
-        <Flex className="home">
+        <Flex className="home" >
           <Flex justifyContent="center" h="95%">
             <Grid templateColumns="repeat(4, 1fr)" width="70%" h="100%">
               {productsFound.map((index, key) => (
