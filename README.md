@@ -94,6 +94,6 @@ Para testar esse projeto, clone-o em sua máquina e siga os seguintes passos:
 
 ## Deploy
 
-Para ir o projeto já em deploy, acesse: [MKS-SISTEMAS](https://mks-sistemas-one.vercel.app/).
+Para ver o projeto já em deploy, acesse: [MKS-SISTEMAS](https://mks-sistemas-one.vercel.app/).
 
 
