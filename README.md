@@ -19,6 +19,10 @@ MK Sistemas é uma [loja de produtos eletrônicos fictícia](https://mks-sistema
 Ao clicar no botão **comprar**, o item é adicionado ao carrinho, sendo possível ver a quantidade de items ser alterada no botão do carrinho. 
 
 <br>
+
+<image src="assets/part1.gif"/>
+
+<br>
 </details>
 
 <details open>
@@ -26,6 +30,10 @@ Ao clicar no botão **comprar**, o item é adicionado ao carrinho, sendo possív
 <br>
 
 Ao clicar no **botão do carrinho**, um *drawer* é aberto, mostrando cards com o produto adicionado.
+
+<br>
+
+<image src="assets/part2.gif"/>
 
 <br>
 </details>
@@ -37,6 +45,10 @@ Ao clicar no **botão do carrinho**, um *drawer* é aberto, mostrando cards com 
 Em cada card, é possível aumentar ou diminuir a quantidade de produtos, clicando nos botões de **mais** e **menos**. Ao chegar na quantidade zero, o item é automaticamente removido. 
 
 <br>
+
+<image src="assets/part3.gif"/>
+
+<br>
 </details>
 
 <details open>
@@ -46,6 +58,10 @@ Em cada card, é possível aumentar ou diminuir a quantidade de produtos, clican
 Além disso, o cliente pode remover o produto clicando no botão **X**, no topo do card. 
 
 <br>
+
+<image src="assets/part4.gif"/>
+
+<br>
 </details>
 
 <details open>
@@ -53,6 +69,10 @@ Além disso, o cliente pode remover o produto clicando no botão **X**, no topo 
 <br>
 
 Os valores de cada produto são exibidos em cada card. No final do *drawer*, é possível verificar o valor total da compra, sendo a cada produto multiplicado pela sua quantidade e então, somando todos.
+
+<br>
+
+<image src="assets/part5.gif"/>
 
 <br>
 </details>
