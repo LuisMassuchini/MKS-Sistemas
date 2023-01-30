@@ -49,9 +49,8 @@ export const CartDrawer = () => {
               </Flex>
             </Flex>
           </DrawerHeader>
-
           {list !== undefined && list.length > 0 && (
-            <DrawerBody className="scroll-custom"mb="100px" >
+            <DrawerBody className="scroll-custom" mb="100px">
               <Stack spacing="24px" mb="120px">
                 {list.map((index, key) => (
                   <Flex key={key} w="100%">
@@ -61,7 +60,6 @@ export const CartDrawer = () => {
               </Stack>
             </DrawerBody>
           )}
-
           <DrawerFooter
             w="100%"
             flexDirection="column"

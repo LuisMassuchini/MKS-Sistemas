@@ -120,7 +120,7 @@ export const theme = extendTheme({
         textDecoration: 'none!important',
       },
       strong: {
-        fontFamily: 'Montserrat-Regular',
+        fontFamily: 'Montserrat-Bold',
       },
       b: {
         fontFamily: 'Montserrat-Regular',

@@ -8,13 +8,12 @@ export const SkeletonProduct = () => {
       direction="column"
       justifyContent="center"
       alignItems="center"
-  
       w="100%"
     >
-      <Grid templateColumns="repeat(4, 1fr)"  width="70%" h="100%">
+      <Grid templateColumns="repeat(4, 1fr)" width="70%" h="100%">
         {productsSkeleton.map((index, key) => (
           <Flex key={key} mt="24px">
-            <Skeleton className='Skeleton' borderRadius="8px" />
+            <Skeleton className="Skeleton" borderRadius="8px" />
           </Flex>
         ))}
       </Grid>
